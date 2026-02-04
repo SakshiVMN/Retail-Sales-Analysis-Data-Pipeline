@@ -51,11 +51,9 @@ The entire pipeline is orchestrated using **one Airflow DAG** with clearly defin
      ↓
 [BashOperator: upload to HDFS]
      ↓
-[SparkSubmitOperator: Bronze → Silver]
+[BashOperator : Bronze → Silver]
      ↓
-[SparkSubmitOperator: Silver → Gold]
-     ↓
-[PythonOperator: collect summary]
+[BashOperatorOperator: Silver → Gold]
      ↓
 [EmailOperator]
 ```
