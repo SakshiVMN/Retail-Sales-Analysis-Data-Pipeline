@@ -188,4 +188,4 @@ export AIRFLOW_HOME=$PROJECT_HOME/airflow
 
 ## Summary
 
-This project demonstrates a real-world **batch-oriented retail analytics pipeline** with correct fact and dimension modeling, scalable Spark transformations, and reliable Airflow orchestration. It is designed to be lightweight, reproducible, and interview-ready, validating the pipeline on small datasets before scaling to larger volumes.
+This project demonstrates a real-world **batch-oriented retail analytics pipeline** with correct fact and dimension modeling, scalable Spark transformations, and reliable Airflow orchestration. 
