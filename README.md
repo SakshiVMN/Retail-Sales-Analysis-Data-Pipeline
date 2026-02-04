@@ -53,7 +53,7 @@ The entire pipeline is orchestrated using **one Airflow DAG** with clearly defin
      ↓
 [BashOperator : Bronze → Silver]
      ↓
-[BashOperatorOperator: Silver → Gold]
+[BashOperator: Silver → Gold]
      ↓
 [EmailOperator]
 ```
